@@ -1,0 +1,14 @@
+13.08.2023 20:22:04 - Program Başladı
+13.08.2023 20:23:40 - Login/SignIn - hndnrsy555@gmail.com
+13.08.2023 20:23:45 - Personel/Profile Error - System.Net.WebException: Uzak sunucuya bağlanılamıyor ---> System.Net.Sockets.SocketException: Hedef makine etkin olarak reddettiğinden bağlantı kurulamadı 127.0.0.1:55778
+   konum: System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   konum: System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- İç özel durum yığını izlemesinin sonu ---
+   konum: System.Net.WebClient.DownloadDataInternal(Uri address, WebRequest& request)
+   konum: System.Net.WebClient.DownloadString(Uri address)
+   konum: HRVacationSystemUI.Controllers.PersonelController.Profile(String email) C:\Users\hndnr\Downloads\HRVacationSystemHumanGroup-master2\HRVacationSystemUI\Controllers\PersonelController.cs içinde: satır 53
+13.08.2023 20:31:36 - Program Başladı
+13.08.2023 20:56:09 - Program Başladı
+13.08.2023 21:09:25 - Program Başladı
+13.08.2023 21:26:32 - Program Başladı
+13.08.2023 21:32:25 - Login/SignIn - hndnrsy333@gmail.com
